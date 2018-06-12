@@ -7,7 +7,8 @@ Created on 2018年1月5日
 #导入cv模块
 import cv2 as cv
 #读取图像，支持 bmp、jpg、png、tiff 等常用格式
-img = cv.imread("test1.png")
+print cv.__version__
+img = cv.imread("test.png")
 #创建窗口并显示图像
 cv.namedWindow("Image")
 cv.imshow("Image",img)
