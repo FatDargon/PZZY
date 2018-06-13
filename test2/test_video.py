@@ -58,7 +58,7 @@ if __name__ == "__main__":
         # print i/3
         if not (0):
             print "in "+str(i/3)
-            # cv2.imwrite("1234.png",displayImg)
+            cv2.imwrite("1234.png",displayImg)
             cv2.namedWindow('test Video')
             # cv2.namedWindow("Image")
             # cv2.createTrackbar('threshold', 'Image', 0, 255, hh)
